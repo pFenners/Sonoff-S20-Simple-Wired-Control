@@ -41,6 +41,8 @@ Pulling the input pin high will activate the S20's relay.
 
 Pulling the input pin low will de-activate the relay
 
+![s20_inside](https://user-images.githubusercontent.com/33573565/53252224-52a4f180-36b6-11e9-99c9-c447d770e654.png)
+
 # Using the manual override feature
 
 Sometimes you may want to turn on or off the relay regardless of the state of the external switch/input. When override mode is enabled the state of the relay can be changed by pressing the push button on the S20. This can be toggle as many times as required until you disable override mode.
