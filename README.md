@@ -22,7 +22,7 @@ In short this involves:
 Solder tail wires to the pin's previously used to flash the S20, the pins differ depending on your use. Normally only two wires are needed.
 When looking at the S20 with the push button at the top and the plug pins at the bottom:
 - The top pin is VCC 
-- The X pin in PIN 3 (input pin)
+- The TBC pin in PIN 3 (input pin)
 - The bottom pin is GND
 
 *To use an external input e.g another microcontroller*
@@ -36,17 +36,17 @@ When looking at the S20 with the push button at the top and the plug pins at the
 Pulling the input pin high will activate the S20's relay
 Pulling the input pin low will de-activate the relay
 
-# Using the manual override feaure
+# Using the manual override feature
 
 Sometimes you may want to turn on or off the relay regardless of the state of the external switch/input. When override mode is enabled the state of the relay can be changed by pressing the push button on the S20. This can be toggle as many times as required until you disable override mode.
 
-*OVERRIDE mode will ignore the external switch/input until turned off*
+**OVERRIDE mode will ignore the external switch/input until turned off**
 
-- Enable override
+**Enable override**
 There are two ways to enable override mode. When enabled the switch will be illuminated green.
-1. Non-toggle method - Hold down the push button on the S20 for over 2 seconds. This will not toggle the relay state.
-2. Toggle method - Simply push the button on the S20, the relay state will toggle and override mode will be enabled.
+  1. Non-toggle method - Hold down the push button on the S20 for over 2 seconds. This will not toggle the relay state.
+  2. Toggle method - Simply push the button on the S20, the relay state will toggle and override mode will be enabled.
 
-- Disable override
+**Disable override**
 Hold the push button on the S20 for over 2 seconds, the switch will no longer be illuminated green. The relay will now continue to be toggled by the external switch/input
 
