@@ -24,18 +24,21 @@ Uses the EasyButton library by Evert Arias: https://github.com/evert-arias/EasyB
 Solder tail wires to the pin's previously used to flash the S20, the pins differ depending on your use. Normally only two wires are needed.
 When looking at the S20 with the push button at the top and the plug pins at the bottom:
 - The top pin is VCC 
-- The TBC pin in PIN 3 (input pin)
+- The one below VCC is PIN 3 (input pin)
 - The bottom pin is GND
 
 *To use an external input e.g another microcontroller*
 - Wire GND to the GND of the other device
 - Wire the input put to an output pin of the other device
+- Solder a pull-down resistor (10k) between the input pin and GND
 
 *To use an external push button*
 - Wire one side of the push button to the input pin
 - Wire the other side of the switch to VCC
+- Solder a pull-down resistor (10k) between the input pin and GND
 
-Pulling the input pin high will activate the S20's relay
+Pulling the input pin high will activate the S20's relay.
+
 Pulling the input pin low will de-activate the relay
 
 # Using the manual override feature
