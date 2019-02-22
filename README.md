@@ -17,6 +17,8 @@ In short this involves:
 3. Hold down the push button while connecting the FTDI USB converter to a computer
 4. Flash the firmware (the .ino file from this repository) using the Arduino IDE
 
+Uses the EasyButton library by Evert Arias: https://github.com/evert-arias/EasyButton/
+
 # Connecting the S20 to an external switch or input
 
 Solder tail wires to the pin's previously used to flash the S20, the pins differ depending on your use. Normally only two wires are needed.
